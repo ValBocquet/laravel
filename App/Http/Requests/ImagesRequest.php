@@ -23,8 +23,8 @@ class ImagesRequest extends Request
      */
     public function rules()
     {
-        return [
-            'image' => 'required|image'
-        ];
+        // return [
+        //     'image' => 'required|image'
+        // ];
     }
 }
