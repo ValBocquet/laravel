@@ -2,7 +2,7 @@
 
 namespace App\Http\Requests;
 
-use App\Http\Requests\Request;
+use Illuminate\Http\Request;
 
 class ImagesRequest extends Request
 {
@@ -23,8 +23,8 @@ class ImagesRequest extends Request
      */
     public function rules()
     {
-        // return [
-        //     'image' => 'required|image'
-        // ];
+        return [
+            'image' => 'required|image'
+        ];
     }
 }
